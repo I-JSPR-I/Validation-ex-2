@@ -13,5 +13,10 @@ namespace Validation_ex_2
         {
 
         }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
