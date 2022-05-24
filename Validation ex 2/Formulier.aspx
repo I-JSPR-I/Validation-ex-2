@@ -10,10 +10,10 @@
     <form id="form1" runat="server">
         <div>
             Voornaam:
-            <asp:TextBox ID="Voornaam" runat="server" OnTextChanged="TextBox1_TextChanged" style="margin-bottom: 0px" Width="128px"></asp:TextBox>
+            <asp:TextBox ID="Voornaam" runat="server" OnTextChanged="TextBox1_TextChanged" Style="margin-bottom: 0px" Width="128px"></asp:TextBox>
             <br />
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator">            Achternaam: <asp:TextBox ID="Achternaam" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
-</asp:RequiredFieldValidator>
+            Achternaam:
+            <asp:TextBox ID="Achternaam" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
             <br />
             Geslacht:
             <asp:RadioButton ID="Man" runat="server" Text="Man" />
@@ -25,18 +25,19 @@
             Email:
             <asp:TextBox ID="Email" runat="server"></asp:TextBox>
             <br />
-            
+
         </div>
-       Wachtwoord:
+        Wachtwoord:
             <asp:TextBox ID="Wachtwoord1" runat="server"></asp:TextBox>
-            <br />
-       Wachtwoord opnieuw:
+        <br />
+        Wachtwoord opnieuw:
                 <asp:TextBox ID="Wachtwoord2" runat="server">    </asp:TextBox>
         <br />
         <br />
         <asp:Button ID="Versturen" runat="server" Text="Versturen" />
         <p>
-            &nbsp;</p>
+            &nbsp;
+        </p>
     </form>
 </body>
 </html>
