@@ -31,9 +31,8 @@
             <asp:TextBox ID="Wachtwoord1" runat="server"></asp:TextBox>
             <br />
        Wachtwoord opnieuw:
-                   
-            <br />
-        <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="CompareValidator" ControlToValidate="Wachtwoord1"> <asp:TextBox ID="Wachtwoord2" runat="server"></asp:TextBox></asp:CompareValidator>
+                <asp:TextBox ID="Wachtwoord2" runat="server">    </asp:TextBox>
+        <br />
         <br />
         <asp:Button ID="Versturen" runat="server" Text="Versturen" />
         <p>
