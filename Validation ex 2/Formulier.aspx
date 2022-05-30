@@ -11,19 +11,27 @@
         <div>
             Voornaam:
             <asp:TextBox ID="Voornaam" runat="server" OnTextChanged="TextBox1_TextChanged" Style="margin-bottom: 0px" Width="128px"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="Voornaamchecker" runat="server" ControlToValidate="Voornaam" Display="Dynamic" ErrorMessage="Dit moet ingevuld zijn"></asp:RequiredFieldValidator>
             <br />
             Achternaam:
             <asp:TextBox ID="Achternaam" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="Achternaamchecker" runat="server" ControlToValidate="Voornaam" Display="Dynamic" ErrorMessage="Dit moet ingevuld zijn"></asp:RequiredFieldValidator>
             <br />
-            Geslacht:
-            <asp:RadioButton ID="Man" runat="server" Text="Man" />
-            <asp:RadioButton ID="Vrouw" runat="server" Text="Vrouw" />
-            <br />
+         
+          
+              Geslacht:<asp:RequiredFieldValidator ID="Achternaamchecker0" runat="server" ControlToValidate="RadioButtonList1" Display="Dynamic" ErrorMessage="Dit moet ingevuld zijn"></asp:RequiredFieldValidator>
+            &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server">
+                 <asp:ListItem Text="Man" Value="Man"></asp:ListItem>
+                <asp:ListItem Text="Vrouw" Value="Vrouw"></asp:ListItem>
+            
+            </asp:RadioButtonList>
+               
             Geboortedatum:
             <asp:TextBox ID="Geboortedatum" runat="server"></asp:TextBox>
             <br />
             Email:
             <asp:TextBox ID="Email" runat="server"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="Email" Display="Dynamic" ErrorMessage="Dit moet een email zijn." ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
             <br />
 
         </div>

@@ -33,6 +33,15 @@ namespace Validation_ex_2
         protected global::System.Web.UI.WebControls.TextBox Voornaam;
 
         /// <summary>
+        /// Voornaamchecker control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator Voornaamchecker;
+
+        /// <summary>
         /// Achternaam control.
         /// </summary>
         /// <remarks>
@@ -42,22 +51,31 @@ namespace Validation_ex_2
         protected global::System.Web.UI.WebControls.TextBox Achternaam;
 
         /// <summary>
-        /// Man control.
+        /// Achternaamchecker control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton Man;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator Achternaamchecker;
 
         /// <summary>
-        /// Vrouw control.
+        /// Achternaamchecker0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton Vrouw;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator Achternaamchecker0;
+
+        /// <summary>
+        /// RadioButtonList1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
 
         /// <summary>
         /// Geboortedatum control.
@@ -76,6 +94,15 @@ namespace Validation_ex_2
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Email;
+
+        /// <summary>
+        /// RegularExpressionValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
 
         /// <summary>
         /// Wachtwoord1 control.
