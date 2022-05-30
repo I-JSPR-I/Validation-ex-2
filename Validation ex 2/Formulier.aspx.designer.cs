@@ -87,6 +87,15 @@ namespace Validation_ex_2
         protected global::System.Web.UI.WebControls.TextBox Geboortedatum;
 
         /// <summary>
+        /// RangeValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
+
+        /// <summary>
         /// Email control.
         /// </summary>
         /// <remarks>
@@ -114,6 +123,15 @@ namespace Validation_ex_2
         protected global::System.Web.UI.WebControls.TextBox Wachtwoord1;
 
         /// <summary>
+        /// Achternaamchecker1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator Achternaamchecker1;
+
+        /// <summary>
         /// Wachtwoord2 control.
         /// </summary>
         /// <remarks>
@@ -121,6 +139,24 @@ namespace Validation_ex_2
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Wachtwoord2;
+
+        /// <summary>
+        /// CompareValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+
+        /// <summary>
+        /// Achternaamchecker2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator Achternaamchecker2;
 
         /// <summary>
         /// Versturen control.
