@@ -11,8 +11,8 @@ namespace Validation_ex_2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            RangeValidator1.MaximumValue = DateTime.Now.ToShortDateString();
-            RangeValidator1.MinimumValue = "01/01/1800";
+            CompareValidator2.ValueToCompare = DateTime.Now.ToString("dd/MM/yyyy");
+
         }
 
         protected void TextBox1_TextChanged(object sender, EventArgs e)

@@ -28,7 +28,8 @@
 
             Geboortedatum:
             <asp:TextBox ID="Geboortedatum" runat="server"></asp:TextBox>
-            <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="RangeValidator"></asp:RangeValidator>
+            <asp:CompareValidator ID="CompareValidator2" runat="server" ControlToValidate="Geboortedatum" ErrorMessage="CompareValidator"></asp:CompareValidator>
+            <asp:RequiredFieldValidator ID="Achternaamchecker3" runat="server" ControlToValidate="Geboortedatum" Display="Dynamic" ErrorMessage="Dit moet ingevuld zijn"></asp:RequiredFieldValidator>
             <br />
             Email:
             <asp:TextBox ID="Email" runat="server"></asp:TextBox>
